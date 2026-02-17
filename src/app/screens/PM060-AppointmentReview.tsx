@@ -149,7 +149,7 @@ export default function AppointmentReview({
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-[#E5E7EB] p-4 max-w-[390px] mx-auto">
         <Button 
           onClick={onConfirm}
-          className="w-full h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E]"
+          className="w-full h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309]"
         >
           Confirm Appointment
         </Button>

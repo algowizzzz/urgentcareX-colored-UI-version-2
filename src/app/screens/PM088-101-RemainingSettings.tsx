@@ -134,9 +134,9 @@ export function ContactSupport({ onBack }: { onBack: () => void }) {
       <div className="flex-1 overflow-y-auto px-6 py-6">
         <textarea
           placeholder="Describe your issue..."
-          className="w-full h-32 px-4 py-3 border border-[#E5E7EB] rounded-xl text-base resize-none focus:outline-none focus:border-[#D72638]"
+          className="w-full h-32 px-4 py-3 border border-[#E5E7EB] rounded-xl text-base resize-none focus:outline-none focus:border-[#D97706]"
         />
-        <Button className="w-full h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E] mt-4">
+        <Button className="w-full h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309] mt-4">
           Send Message
         </Button>
       </div>
@@ -177,7 +177,7 @@ export function LegalPolicies({ onBack, onNavigate }: { onBack: () => void; onNa
         {/* Privacy Policy */}
         <button 
           onClick={() => onNavigate('policy-privacy')}
-          className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D72638] transition-colors"
+          className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D97706] transition-colors"
         >
           <div className="flex items-center gap-3">
             <span className="text-xl">🔒</span>
@@ -189,7 +189,7 @@ export function LegalPolicies({ onBack, onNavigate }: { onBack: () => void; onNa
         {/* Terms of Service */}
         <button 
           onClick={() => onNavigate('policy-terms')}
-          className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D72638] transition-colors"
+          className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D97706] transition-colors"
         >
           <div className="flex items-center gap-3">
             <span className="text-xl">📄</span>
@@ -201,7 +201,7 @@ export function LegalPolicies({ onBack, onNavigate }: { onBack: () => void; onNa
         {/* How We Use Your Data */}
         <button 
           onClick={() => onNavigate('policy-data')}
-          className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D72638] transition-colors"
+          className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D97706] transition-colors"
         >
           <div className="flex items-center gap-3">
             <span className="text-xl">📋</span>
@@ -213,7 +213,7 @@ export function LegalPolicies({ onBack, onNavigate }: { onBack: () => void; onNa
         {/* Important Disclaimer */}
         <button 
           onClick={() => onNavigate('policy-disclaimer')}
-          className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D72638] transition-colors"
+          className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D97706] transition-colors"
         >
           <div className="flex items-center gap-3">
             <span className="text-xl">⚠️</span>
@@ -225,7 +225,7 @@ export function LegalPolicies({ onBack, onNavigate }: { onBack: () => void; onNa
         {/* HIPAA Notice */}
         <button 
           onClick={() => onNavigate('policy-hipaa')}
-          className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D72638] transition-colors"
+          className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D97706] transition-colors"
         >
           <div className="flex items-center gap-3">
             <span className="text-xl">🏥</span>

@@ -47,7 +47,7 @@ export default function ChangePassword({ onSave, onBack }: ChangePasswordProps) 
                 type={showCurrent ? 'text' : 'password'}
                 value={currentPassword}
                 onChange={(e) => setCurrentPassword(e.target.value)}
-                className="w-full h-[52px] px-4 pr-12 border border-[#E5E7EB] rounded-xl text-base focus:outline-none focus:border-[#D72638]"
+                className="w-full h-[52px] px-4 pr-12 border border-[#E5E7EB] rounded-xl text-base focus:outline-none focus:border-[#D97706]"
                 placeholder="Enter current password"
               />
               <button
@@ -74,7 +74,7 @@ export default function ChangePassword({ onSave, onBack }: ChangePasswordProps) 
                 type={showNew ? 'text' : 'password'}
                 value={newPassword}
                 onChange={(e) => setNewPassword(e.target.value)}
-                className="w-full h-[52px] px-4 pr-12 border border-[#E5E7EB] rounded-xl text-base focus:outline-none focus:border-[#D72638]"
+                className="w-full h-[52px] px-4 pr-12 border border-[#E5E7EB] rounded-xl text-base focus:outline-none focus:border-[#D97706]"
                 placeholder="Enter new password"
               />
               <button
@@ -130,7 +130,7 @@ export default function ChangePassword({ onSave, onBack }: ChangePasswordProps) 
                 type={showConfirm ? 'text' : 'password'}
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
-                className="w-full h-[52px] px-4 pr-12 border border-[#E5E7EB] rounded-xl text-base focus:outline-none focus:border-[#D72638]"
+                className="w-full h-[52px] px-4 pr-12 border border-[#E5E7EB] rounded-xl text-base focus:outline-none focus:border-[#D97706]"
                 placeholder="Confirm new password"
               />
               <button
@@ -160,7 +160,7 @@ export default function ChangePassword({ onSave, onBack }: ChangePasswordProps) 
         <Button 
           onClick={onSave}
           disabled={!canSubmit}
-          className="w-full h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E] disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309] disabled:opacity-50 disabled:cursor-not-allowed"
         >
           Update Password
         </Button>

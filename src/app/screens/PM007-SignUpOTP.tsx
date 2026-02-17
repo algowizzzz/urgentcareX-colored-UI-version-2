@@ -63,7 +63,7 @@ export default function SignUpOTP({ email, onVerify, onBack }: SignUpOTPProps) {
   };
 
   return (
-    <div className="flex flex-col h-full bg-[#D72638]">
+    <div className="flex flex-col h-full bg-[#D97706]">
       {/* Header with Back Button */}
       <div className="flex items-center p-4">
         <button onClick={onBack} className="p-2">
@@ -100,7 +100,7 @@ export default function SignUpOTP({ email, onVerify, onBack }: SignUpOTPProps) {
               style={{
                 backgroundColor: digit ? 'white' : 'rgba(255,255,255,0.15)',
                 borderColor: digit ? 'white' : 'rgba(255,255,255,0.3)',
-                color: digit ? '#D72638' : 'white',
+                color: digit ? '#D97706' : 'white',
               }}
             />
           ))}
@@ -125,7 +125,7 @@ export default function SignUpOTP({ email, onVerify, onBack }: SignUpOTPProps) {
         <Button
           onClick={onVerify}
           disabled={otp.some(digit => !digit)}
-          className="w-full h-[52px] bg-white text-[#D72638] rounded-xl text-base font-semibold hover:bg-white/90 disabled:bg-white/30 disabled:text-white/50"
+          className="w-full h-[52px] bg-white text-[#D97706] rounded-xl text-base font-semibold hover:bg-white/90 disabled:bg-white/30 disabled:text-white/50"
         >
           Verify
         </Button>

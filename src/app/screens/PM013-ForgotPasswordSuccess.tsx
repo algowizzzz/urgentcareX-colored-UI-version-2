@@ -37,7 +37,7 @@ export default function ForgotPasswordSuccess({ onBackToSignIn }: ForgotPassword
       {/* Back to Sign In Button */}
       <Button 
         onClick={onBackToSignIn}
-        className="w-full max-w-[326px] h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E]"
+        className="w-full max-w-[326px] h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309]"
       >
         Back to Sign In
       </Button>

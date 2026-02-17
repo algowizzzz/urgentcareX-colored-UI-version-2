@@ -24,11 +24,11 @@ function ChatIllustration() {
       <circle cx="100" cy="56" r="3" fill="#9CA3AF" />
       <circle cx="112" cy="56" r="3" fill="#9CA3AF" />
       {/* AI avatar */}
-      <circle cx="76" cy="78" r="8" fill="#D72638" />
+      <circle cx="76" cy="78" r="8" fill="#D97706" />
       <text x="76" y="82" textAnchor="middle" fill="white" fontSize="8" fontWeight="bold">X</text>
 
       {/* User message bubble */}
-      <rect x="104" y="86" width="60" height="22" rx="10" fill="#D72638" />
+      <rect x="104" y="86" width="60" height="22" rx="10" fill="#D97706" />
       <rect x="112" y="93" width="32" height="3" rx="1.5" fill="white" opacity="0.7" />
 
       {/* AI response */}
@@ -36,18 +36,18 @@ function ChatIllustration() {
       <rect x="84" y="126" width="50" height="3" rx="1.5" fill="#9CA3AF" />
 
       {/* User message */}
-      <rect x="110" y="150" width="54" height="18" rx="9" fill="#D72638" />
+      <rect x="110" y="150" width="54" height="18" rx="9" fill="#D97706" />
       <rect x="118" y="156" width="28" height="3" rx="1.5" fill="white" opacity="0.7" />
 
       {/* Floating decorative elements */}
-      <circle cx="32" cy="50" r="12" fill="#D72638" opacity="0.1" />
-      <circle cx="210" cy="140" r="16" fill="#D72638" opacity="0.08" />
+      <circle cx="32" cy="50" r="12" fill="#D97706" opacity="0.1" />
+      <circle cx="210" cy="140" r="16" fill="#D97706" opacity="0.08" />
       <circle cx="200" cy="40" r="8" fill="#10B981" opacity="0.15" />
       <circle cx="40" cy="160" r="10" fill="#F59E0B" opacity="0.12" />
 
       {/* Pulse rings around phone */}
-      <rect x="50" y="0" width="140" height="200" rx="22" stroke="#D72638" strokeWidth="1" opacity="0.1" fill="none" />
-      <rect x="42" y="-8" width="156" height="216" rx="28" stroke="#D72638" strokeWidth="0.5" opacity="0.06" fill="none" />
+      <rect x="50" y="0" width="140" height="200" rx="22" stroke="#D97706" strokeWidth="1" opacity="0.1" fill="none" />
+      <rect x="42" y="-8" width="156" height="216" rx="28" stroke="#D97706" strokeWidth="0.5" opacity="0.06" fill="none" />
     </svg>
   );
 }
@@ -69,9 +69,9 @@ function MapIllustration() {
       <path d="M40 40 L180 160" stroke="#E5E7EB" strokeWidth="3" opacity="0.5" />
 
       {/* Location pin 1 - Primary (you are here) */}
-      <circle cx="125" cy="95" r="18" fill="#D72638" opacity="0.15" />
-      <circle cx="125" cy="95" r="10" fill="#D72638" opacity="0.25" />
-      <circle cx="125" cy="95" r="5" fill="#D72638" />
+      <circle cx="125" cy="95" r="18" fill="#D97706" opacity="0.15" />
+      <circle cx="125" cy="95" r="10" fill="#D97706" opacity="0.25" />
+      <circle cx="125" cy="95" r="5" fill="#D97706" />
 
       {/* Doctor pin 1 */}
       <g>
@@ -95,15 +95,15 @@ function MapIllustration() {
       </g>
 
       {/* Distance line */}
-      <line x1="125" y1="95" x2="80" y2="57" stroke="#D72638" strokeWidth="1.5" strokeDasharray="4 3" opacity="0.5" />
-      <line x1="125" y1="95" x2="165" y2="47" stroke="#D72638" strokeWidth="1.5" strokeDasharray="4 3" opacity="0.5" />
+      <line x1="125" y1="95" x2="80" y2="57" stroke="#D97706" strokeWidth="1.5" strokeDasharray="4 3" opacity="0.5" />
+      <line x1="125" y1="95" x2="165" y2="47" stroke="#D97706" strokeWidth="1.5" strokeDasharray="4 3" opacity="0.5" />
 
       {/* Radius circle */}
-      <circle cx="125" cy="95" r="55" stroke="#D72638" strokeWidth="1.5" strokeDasharray="6 4" fill="none" opacity="0.2" />
+      <circle cx="125" cy="95" r="55" stroke="#D97706" strokeWidth="1.5" strokeDasharray="6 4" fill="none" opacity="0.2" />
 
       {/* Decorative corners */}
       <circle cx="30" cy="30" r="4" fill="#F59E0B" opacity="0.3" />
-      <circle cx="210" cy="170" r="4" fill="#D72638" opacity="0.2" />
+      <circle cx="210" cy="170" r="4" fill="#D97706" opacity="0.2" />
     </svg>
   );
 }
@@ -115,8 +115,8 @@ function CalendarIllustration() {
       {/* Calendar body */}
       <rect x="40" y="30" width="160" height="140" rx="14" fill="white" stroke="#E5E7EB" strokeWidth="1.5" />
       {/* Calendar header */}
-      <rect x="40" y="30" width="160" height="40" rx="14" fill="#D72638" />
-      <rect x="40" y="56" width="160" height="14" fill="#D72638" />
+      <rect x="40" y="30" width="160" height="40" rx="14" fill="#D97706" />
+      <rect x="40" y="56" width="160" height="14" fill="#D97706" />
       {/* Calendar hooks */}
       <rect x="80" y="22" width="4" height="20" rx="2" fill="#1F2937" />
       <rect x="156" y="22" width="4" height="20" rx="2" fill="#1F2937" />
@@ -141,7 +141,7 @@ function CalendarIllustration() {
         <text key={d} x={58 + i * 20} y="132" textAnchor="middle" fill={d === 17 ? 'white' : '#374151'} fontSize="9" fontWeight={d === 17 ? 'bold' : 'normal'}>{d}</text>
       ))}
       {/* Selected date highlight */}
-      <circle cx={58 + 2 * 20} cy={129} r="10" fill="#D72638" />
+      <circle cx={58 + 2 * 20} cy={129} r="10" fill="#D97706" />
       <text x={58 + 2 * 20} y="132" textAnchor="middle" fill="white" fontSize="9" fontWeight="bold">17</text>
 
       {/* Row 4 */}
@@ -154,7 +154,7 @@ function CalendarIllustration() {
       <path d="M176 155 L182 161 L194 149" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" fill="none" />
 
       {/* Decorative elements */}
-      <circle cx="22" cy="60" r="10" fill="#D72638" opacity="0.08" />
+      <circle cx="22" cy="60" r="10" fill="#D97706" opacity="0.08" />
       <circle cx="220" cy="50" r="14" fill="#10B981" opacity="0.1" />
       <circle cx="28" cy="160" r="8" fill="#3B82F6" opacity="0.1" />
       <circle cx="215" cy="130" r="6" fill="#F59E0B" opacity="0.12" />
@@ -296,7 +296,7 @@ export default function WelcomeCarousel({ onComplete, onSkip }: WelcomeCarouselP
               key={index}
               onClick={() => goToSlide(index)}
               className={`w-2 h-2 rounded-full transition-colors duration-200 ${
-                index === currentSlide ? 'bg-[#D72638]' : 'bg-[#E5E7EB]'
+                index === currentSlide ? 'bg-[#D97706]' : 'bg-[#E5E7EB]'
               }`}
               aria-label={`Go to slide ${index + 1}`}
             />
@@ -319,7 +319,7 @@ export default function WelcomeCarousel({ onComplete, onSkip }: WelcomeCarouselP
           {/* Next / Get Started Button */}
           <Button
             onClick={goNext}
-            className="flex-1 h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E]"
+            className="flex-1 h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309]"
           >
             {isLastSlide ? 'Get Started' : 'Next'}
           </Button>

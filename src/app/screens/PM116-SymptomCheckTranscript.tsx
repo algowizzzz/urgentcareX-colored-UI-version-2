@@ -123,7 +123,7 @@ export default function SymptomCheckTranscript({ session, onBack, onFindCare }: 
         <div className="bg-white border-t border-[#E5E7EB] p-4">
           <Button
             onClick={onFindCare}
-            className="w-full h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E] flex items-center justify-center gap-2"
+            className="w-full h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309] flex items-center justify-center gap-2"
           >
             <MapPin className="w-5 h-5" />
             Find Care

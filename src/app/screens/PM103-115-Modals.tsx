@@ -78,7 +78,7 @@ export function ConfirmationModal({
             className={`w-full h-[52px] rounded-xl ${
               variant === 'danger' 
                 ? 'bg-[#EF4444] hover:bg-[#DC2626]' 
-                : 'bg-[#D72638] hover:bg-[#B91C2E]'
+                : 'bg-[#D97706] hover:bg-[#B45309]'
             } text-white`}
           >
             {confirmText}

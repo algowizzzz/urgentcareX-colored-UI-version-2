@@ -18,7 +18,7 @@ export default function SignUpEmail({ onContinue, onSignIn, onBack, onViewTerms,
   const isValid = email.length > 0 && email.includes('@');
 
   return (
-    <div className="flex flex-col h-full bg-[#D72638]">
+    <div className="flex flex-col h-full bg-[#D97706]">
       {/* Header with Back Button */}
       <div className="flex items-center p-4">
         <button onClick={onBack} className="p-2">
@@ -61,7 +61,7 @@ export default function SignUpEmail({ onContinue, onSignIn, onBack, onViewTerms,
         <Button
           onClick={() => onContinue(email)}
           disabled={!isValid}
-          className="w-full h-[52px] bg-white text-[#D72638] rounded-xl text-base font-semibold hover:bg-white/90 disabled:bg-white/30 disabled:text-white/50 mb-8"
+          className="w-full h-[52px] bg-white text-[#D97706] rounded-xl text-base font-semibold hover:bg-white/90 disabled:bg-white/30 disabled:text-white/50 mb-8"
         >
           Continue
         </Button>

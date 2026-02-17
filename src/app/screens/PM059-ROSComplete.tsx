@@ -71,7 +71,7 @@ export default function ROSComplete({ onViewResults, onGoHome, onBack }: ROSComp
           </div>
 
           {/* Info Notice */}
-          <div className="bg-[#F3F4F6] border-l-4 border-[#D72638] rounded-xl p-5 mb-6">
+          <div className="bg-[#F3F4F6] border-l-4 border-[#D97706] rounded-xl p-5 mb-6">
             <h3 className="text-base font-semibold text-[#1F2937] mb-2">
               Shared with Your Provider
             </h3>
@@ -96,7 +96,7 @@ export default function ROSComplete({ onViewResults, onGoHome, onBack }: ROSComp
       <div className="bg-white border-t border-[#E5E7EB] p-4">
         <Button 
           onClick={onViewResults}
-          className="w-full h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E]"
+          className="w-full h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309]"
         >
           <FileText className="w-5 h-5 mr-2" />
           Confirm Appointment

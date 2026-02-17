@@ -83,7 +83,7 @@ export default function ROSGeneral({ onContinue, onBack, initialData }: ROSGener
               className={`flex items-center gap-3 cursor-pointer p-4 rounded-xl transition-all ${
                 selectedSymptoms[symptom]
                   ? 'bg-[#1F2937]/5 border-2 border-[#1F2937]'
-                  : 'bg-white border-2 border-[#E5E7EB] hover:border-[#D72638]/30'
+                  : 'bg-white border-2 border-[#E5E7EB] hover:border-[#D97706]/30'
               }`}
             >
               <Checkbox
@@ -102,7 +102,7 @@ export default function ROSGeneral({ onContinue, onBack, initialData }: ROSGener
       <div className="bg-white border-t border-[#E5E7EB] p-4">
         <Button 
           onClick={handleContinue}
-          className="w-full h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E]"
+          className="w-full h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309]"
         >
           Continue
         </Button>

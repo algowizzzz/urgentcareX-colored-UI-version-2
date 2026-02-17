@@ -25,7 +25,7 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
   }, [onComplete]);
 
   return (
-    <div className="flex flex-col items-center justify-center h-full bg-[#D72638] px-8 overflow-hidden">
+    <div className="flex flex-col items-center justify-center h-full bg-[#D97706] px-8 overflow-hidden">
       {/* Logo X - drops in from top then fades in */}
       <motion.div
         className="mb-6"

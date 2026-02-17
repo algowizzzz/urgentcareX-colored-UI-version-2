@@ -76,7 +76,7 @@ export default function PronounsSelector({
               onClick={() => handleOptionClick(option.id)}
               className={`h-[52px] rounded-xl border-2 text-base font-medium transition-all ${
                 isSelected
-                  ? 'border-[#D72638] bg-[#F3F4F6]'
+                  ? 'border-[#D97706] bg-[#F3F4F6]'
                   : 'border-[#E5E7EB] bg-white'
               }`}
             >

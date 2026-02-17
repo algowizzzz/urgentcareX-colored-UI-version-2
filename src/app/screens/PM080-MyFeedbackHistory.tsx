@@ -114,7 +114,7 @@ export default function MyFeedbackHistory({ onViewFeedback, onProvideFeedback, o
               <div
                 key={feedback.id}
                 onClick={() => onViewFeedback(feedback.id)}
-                className="border border-[#E5E7EB] rounded-xl p-4 hover:border-[#D72638] transition-colors cursor-pointer"
+                className="border border-[#E5E7EB] rounded-xl p-4 hover:border-[#D97706] transition-colors cursor-pointer"
               >
                 <div className="flex items-start justify-between mb-3">
                   <div className="flex-1">

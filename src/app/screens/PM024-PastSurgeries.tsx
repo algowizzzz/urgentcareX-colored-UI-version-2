@@ -156,7 +156,7 @@ export default function PastSurgeries({ onContinue, onSkip, onBack, initialData 
           </Button>
           <Button 
             onClick={handleContinue}
-            className="flex-1 h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E]"
+            className="flex-1 h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309]"
           >
             Continue
           </Button>
@@ -228,7 +228,7 @@ export default function PastSurgeries({ onContinue, onSkip, onBack, initialData 
               <Button 
                 onClick={handleAddSurgery}
                 disabled={!surgeryType || !surgeryYear || (surgeryType === 'Other' && !customSurgeryType)}
-                className="flex-1 h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E] disabled:opacity-50 disabled:cursor-not-allowed"
+                className="flex-1 h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309] disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 Add
               </Button>

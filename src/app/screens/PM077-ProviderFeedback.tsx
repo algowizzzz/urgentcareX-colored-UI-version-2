@@ -120,7 +120,7 @@ export default function ProviderFeedback({
               value={feedback}
               onChange={(e) => setFeedback(e.target.value)}
               placeholder="What went well? What could be improved?"
-              className="w-full h-32 px-4 py-3 border border-[#E5E7EB] rounded-xl text-base resize-none focus:outline-none focus:border-[#D72638]"
+              className="w-full h-32 px-4 py-3 border border-[#E5E7EB] rounded-xl text-base resize-none focus:outline-none focus:border-[#D97706]"
             />
             <p className="text-xs text-[#6B7280] mt-2">
               Your feedback helps us improve our service
@@ -133,7 +133,7 @@ export default function ProviderFeedback({
           <Button 
             onClick={handleSubmit}
             disabled={rating === 0}
-            className="w-full h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E] disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309] disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Submit Feedback
           </Button>

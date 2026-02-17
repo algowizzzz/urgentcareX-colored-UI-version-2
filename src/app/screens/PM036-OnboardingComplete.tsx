@@ -53,7 +53,7 @@ export default function OnboardingComplete({ onStartFindingCare }: OnboardingCom
               Profile Completion: 100%
             </p>
             <div className="w-full h-1 bg-[#E5E7EB] rounded-full overflow-hidden">
-              <div className="h-full bg-[#D72638] rounded-full" style={{ width: '100%' }}></div>
+              <div className="h-full bg-[#D97706] rounded-full" style={{ width: '100%' }}></div>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function OnboardingComplete({ onStartFindingCare }: OnboardingCom
       <div className="bg-white border-t border-[#E5E7EB] p-4">
         <Button 
           onClick={onStartFindingCare}
-          className="w-full h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E]"
+          className="w-full h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309]"
         >
           Start Finding Care
         </Button>

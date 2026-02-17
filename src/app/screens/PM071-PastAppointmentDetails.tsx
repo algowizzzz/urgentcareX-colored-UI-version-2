@@ -144,7 +144,7 @@ export default function PastAppointmentDetails({
           <h3 className="text-lg font-semibold text-[#1F2937] mb-4">Documents</h3>
           
           <div className="space-y-3">
-            <button className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D72638] transition-colors">
+            <button className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D97706] transition-colors">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-[#1F2937]/10 rounded-lg flex items-center justify-center">
                   <FileText className="w-5 h-5 text-[#1F2937]" />
@@ -157,7 +157,7 @@ export default function PastAppointmentDetails({
               <Download className="w-5 h-5 text-[#6B7280]" />
             </button>
 
-            <button className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D72638] transition-colors">
+            <button className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D97706] transition-colors">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-[#1F2937]/10 rounded-lg flex items-center justify-center">
                   <FileText className="w-5 h-5 text-[#1F2937]" />
@@ -170,7 +170,7 @@ export default function PastAppointmentDetails({
               <Download className="w-5 h-5 text-[#6B7280]" />
             </button>
 
-            <button className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D72638] transition-colors">
+            <button className="w-full flex items-center justify-between p-4 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#D97706] transition-colors">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-[#1F2937]/10 rounded-lg flex items-center justify-center">
                   <FileText className="w-5 h-5 text-[#1F2937]" />

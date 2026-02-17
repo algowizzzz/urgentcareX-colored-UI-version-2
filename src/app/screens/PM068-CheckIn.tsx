@@ -72,7 +72,7 @@ export default function CheckIn({
               className={`w-full text-left p-4 rounded-xl transition-all ${
                 symptomsChanged === false
                   ? 'bg-[#10B981] text-white'
-                  : 'bg-white border border-[#E5E7EB] text-[#1F2937] hover:border-[#D72638]'
+                  : 'bg-white border border-[#E5E7EB] text-[#1F2937] hover:border-[#D97706]'
               }`}
             >
               <div className="flex items-center justify-between">
@@ -85,7 +85,7 @@ export default function CheckIn({
               className={`w-full text-left p-4 rounded-xl transition-all ${
                 symptomsChanged === true
                   ? 'bg-[#F59E0B] text-white'
-                  : 'bg-white border border-[#E5E7EB] text-[#1F2937] hover:border-[#D72638]'
+                  : 'bg-white border border-[#E5E7EB] text-[#1F2937] hover:border-[#D97706]'
               }`}
             >
               <div className="flex items-center justify-between">
@@ -114,7 +114,7 @@ export default function CheckIn({
               className={`w-full text-left p-4 rounded-xl transition-all ${
                 medicationsChanged === false
                   ? 'bg-[#10B981] text-white'
-                  : 'bg-white border border-[#E5E7EB] text-[#1F2937] hover:border-[#D72638]'
+                  : 'bg-white border border-[#E5E7EB] text-[#1F2937] hover:border-[#D97706]'
               }`}
             >
               <div className="flex items-center justify-between">
@@ -127,7 +127,7 @@ export default function CheckIn({
               className={`w-full text-left p-4 rounded-xl transition-all ${
                 medicationsChanged === true
                   ? 'bg-[#F59E0B] text-white'
-                  : 'bg-white border border-[#E5E7EB] text-[#1F2937] hover:border-[#D72638]'
+                  : 'bg-white border border-[#E5E7EB] text-[#1F2937] hover:border-[#D97706]'
               }`}
             >
               <div className="flex items-center justify-between">

@@ -73,7 +73,7 @@ export default function ProviderProfile({ provider, onBookAppointment, onBack }:
                 </div>
               )}
               {userHasInsurance && provider.acceptsInsurance === false && (
-                <div className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-[#FEF2F2] rounded-xl">
+                <div className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-[#FFFBEB] rounded-xl">
                   <span className="text-base font-semibold text-[#DC2626]">Insurance Not Accepted</span>
                 </div>
               )}
@@ -256,7 +256,7 @@ export default function ProviderProfile({ provider, onBookAppointment, onBack }:
       <div className="bg-white border-t border-[#E5E7EB] p-4">
         <Button
           onClick={onBookAppointment}
-          className="w-full h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E]"
+          className="w-full h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309]"
         >
           <Calendar className="w-5 h-5 mr-2" />
           Book Appointment

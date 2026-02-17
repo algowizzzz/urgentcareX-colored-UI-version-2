@@ -134,12 +134,12 @@ export default function Settings({ onNavigate, onLogout, onBack, onNavigateHome,
         {
           label: 'Help & Support',
           action: () => onNavigate('help-support'),
-          color: '#D72638',
-          bg: '#FEF2F2',
-          border: '#FECACA',
+          color: '#D97706',
+          bg: '#FFFBEB',
+          border: '#FDE68A',
           icon: (
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <circle cx="12" cy="12" r="9" fill="#D72638" />
+              <circle cx="12" cy="12" r="9" fill="#D97706" />
               <path d="M9 9C9 7.34315 10.3431 6 12 6C13.6569 6 15 7.34315 15 9C15 10.3062 14.1652 11.4175 13 11.8293V13" stroke="white" strokeWidth="1.8" strokeLinecap="round" />
               <circle cx="12" cy="16" r="1" fill="white" />
             </svg>
@@ -178,7 +178,7 @@ export default function Settings({ onNavigate, onLogout, onBack, onNavigateHome,
         <div className="bg-white mx-4 mt-4 rounded-2xl border border-[#E5E7EB] overflow-hidden" style={{ boxShadow: '0 1px 3px rgba(0,0,0,0.04)' }}>
           <div className="p-5">
             <div className="flex items-center gap-4 mb-5">
-              <div className="w-16 h-16 bg-[#D72638] rounded-2xl flex items-center justify-center text-white text-xl font-bold ring-2 ring-[#D72638]/20">
+              <div className="w-16 h-16 bg-[#D97706] rounded-2xl flex items-center justify-center text-white text-xl font-bold ring-2 ring-[#D97706]/20">
                 JS
               </div>
               <div className="flex-1">
@@ -245,7 +245,7 @@ export default function Settings({ onNavigate, onLogout, onBack, onNavigateHome,
               <button
                 onClick={() => setNotificationsEnabled(!notificationsEnabled)}
                 className={`relative w-[44px] h-[26px] rounded-full transition-colors ${
-                  notificationsEnabled ? 'bg-[#D72638]' : 'bg-[#D1D5DB]'
+                  notificationsEnabled ? 'bg-[#D97706]' : 'bg-[#D1D5DB]'
                 }`}
               >
                 <div
@@ -305,8 +305,8 @@ export default function Settings({ onNavigate, onLogout, onBack, onNavigateHome,
                   onClick={() => handleLanguageSelect(lang.name)}
                   className={`w-full flex items-center justify-between p-4 rounded-xl border-2 transition-all ${
                     selectedLanguage === lang.name
-                      ? 'border-[#D72638] bg-[#FEF2F2]'
-                      : 'border-[#E5E7EB] hover:border-[#D72638]/30'
+                      ? 'border-[#D97706] bg-[#FFFBEB]'
+                      : 'border-[#E5E7EB] hover:border-[#D97706]/30'
                   }`}
                 >
                   <div className="flex flex-col items-start">
@@ -314,7 +314,7 @@ export default function Settings({ onNavigate, onLogout, onBack, onNavigateHome,
                     <span className="text-sm text-[#6B7280]">{lang.nativeName}</span>
                   </div>
                   {selectedLanguage === lang.name && (
-                    <div className="w-6 h-6 bg-[#D72638] rounded-full flex items-center justify-center">
+                    <div className="w-6 h-6 bg-[#D97706] rounded-full flex items-center justify-center">
                       <Check className="w-4 h-4 text-white" />
                     </div>
                   )}
@@ -332,7 +332,7 @@ export default function Settings({ onNavigate, onLogout, onBack, onNavigateHome,
               </Button>
               <Button
                 onClick={handleConfirmLanguage}
-                className="flex-1 h-[48px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E]"
+                className="flex-1 h-[48px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309]"
               >
                 Continue
               </Button>
@@ -374,7 +374,7 @@ export default function Settings({ onNavigate, onLogout, onBack, onNavigateHome,
               </Button>
               <Button
                 onClick={handleFinalConfirm}
-                className="flex-1 h-[48px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E]"
+                className="flex-1 h-[48px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309]"
               >
                 Confirm
               </Button>

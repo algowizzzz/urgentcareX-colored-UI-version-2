@@ -217,7 +217,7 @@ export default function ProviderSearch({ onSelectProvider, onBack }: ProviderSea
             <div
               key={provider.id}
               onClick={() => onSelectProvider(provider)}
-              className="border border-[#E5E7EB] rounded-2xl p-4 hover:border-[#D72638] transition-colors cursor-pointer"
+              className="border border-[#E5E7EB] rounded-2xl p-4 hover:border-[#D97706] transition-colors cursor-pointer"
             >
               {/* Type Badge + Insurance Tag */}
               <div className="flex items-center gap-2 mb-3 flex-wrap">

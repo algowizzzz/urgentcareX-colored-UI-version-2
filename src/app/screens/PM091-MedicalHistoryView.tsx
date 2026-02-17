@@ -219,7 +219,7 @@ export default function MedicalHistoryView({ onBack, onEdit, userData = {} }: Me
         {/* Add New Button */}
         <button 
           onClick={() => onEdit('chronic-conditions')}
-          className="w-full flex items-center justify-center gap-2 p-4 bg-white border-2 border-dashed border-[#E5E7EB] rounded-xl hover:border-[#D72638] transition-colors"
+          className="w-full flex items-center justify-center gap-2 p-4 bg-white border-2 border-dashed border-[#E5E7EB] rounded-xl hover:border-[#D97706] transition-colors"
         >
           <Plus className="w-5 h-5 text-[#6B7280]" />
           <span className="text-base font-medium text-[#6B7280]">Update Medical Information</span>

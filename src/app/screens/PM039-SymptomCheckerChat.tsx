@@ -154,7 +154,7 @@ export default function SymptomCheckerChat({ onComplete, onBack }: SymptomChecke
           <ArrowLeft className="w-5 h-5 text-[#1F2937]" />
         </button>
         <div className="flex items-center gap-2.5 flex-1">
-          <div className="w-9 h-9 bg-[#D72638] rounded-xl flex items-center justify-center">
+          <div className="w-9 h-9 bg-[#D97706] rounded-xl flex items-center justify-center">
             <span className="text-white text-sm font-bold">X</span>
           </div>
           <div>
@@ -178,7 +178,7 @@ export default function SymptomCheckerChat({ onComplete, onBack }: SymptomChecke
               <div className="max-w-[80%]">
                 {message.sender === 'ai' && (
                   <div className="flex items-center gap-2 mb-1.5">
-                    <div className="w-7 h-7 bg-[#D72638] rounded-lg flex items-center justify-center">
+                    <div className="w-7 h-7 bg-[#D97706] rounded-lg flex items-center justify-center">
                       <span className="text-white text-[10px] font-bold">X</span>
                     </div>
                     <span className="text-[11px] text-[#9CA3AF] font-medium">UrgentCareX AI</span>
@@ -188,7 +188,7 @@ export default function SymptomCheckerChat({ onComplete, onBack }: SymptomChecke
                 <div
                   className={`rounded-2xl px-4 py-3 ${
                     message.sender === 'user'
-                      ? 'bg-[#D72638] text-white rounded-tr-md'
+                      ? 'bg-[#D97706] text-white rounded-tr-md'
                       : 'bg-white text-[#1F2937] rounded-tl-md border border-[#E5E7EB]'
                   }`}
                   style={message.sender === 'ai' ? { boxShadow: '0 1px 2px rgba(0,0,0,0.04)' } : {}}
@@ -203,10 +203,10 @@ export default function SymptomCheckerChat({ onComplete, onBack }: SymptomChecke
                       <button
                         key={index}
                         onClick={() => handleOptionClick(option)}
-                        className="w-full text-left px-4 py-3 bg-white border border-[#E5E7EB] rounded-xl text-[15px] text-[#1F2937] hover:border-[#D72638]/40 hover:bg-[#FEF2F2] transition-all group"
+                        className="w-full text-left px-4 py-3 bg-white border border-[#E5E7EB] rounded-xl text-[15px] text-[#1F2937] hover:border-[#D97706]/40 hover:bg-[#FFFBEB] transition-all group"
                         style={{ boxShadow: '0 1px 2px rgba(0,0,0,0.03)' }}
                       >
-                        <span className="group-hover:text-[#D72638] transition-colors">{option}</span>
+                        <span className="group-hover:text-[#D97706] transition-colors">{option}</span>
                       </button>
                     ))}
                   </div>
@@ -242,7 +242,7 @@ export default function SymptomCheckerChat({ onComplete, onBack }: SymptomChecke
               onChange={(e) => setInputText(e.target.value)}
               onKeyPress={(e) => e.key === 'Enter' && handleSendMessage(inputText)}
               placeholder={isRecording ? "Listening..." : "Describe your symptoms..."}
-              className="w-full h-[44px] px-4 rounded-xl border border-[#E5E7EB] text-[15px] focus:outline-none focus:border-[#D72638] focus:ring-1 focus:ring-[#D72638]/20 bg-[#F9FAFB] transition-all"
+              className="w-full h-[44px] px-4 rounded-xl border border-[#E5E7EB] text-[15px] focus:outline-none focus:border-[#D97706] focus:ring-1 focus:ring-[#D97706]/20 bg-[#F9FAFB] transition-all"
               disabled={isRecording}
             />
           </div>
@@ -259,7 +259,7 @@ export default function SymptomCheckerChat({ onComplete, onBack }: SymptomChecke
           <button
             onClick={() => handleSendMessage(inputText)}
             disabled={isRecording || !inputText.trim()}
-            className="w-[44px] h-[44px] bg-[#D72638] rounded-xl flex items-center justify-center hover:bg-[#B91C2E] transition-colors disabled:opacity-30 disabled:cursor-not-allowed shrink-0"
+            className="w-[44px] h-[44px] bg-[#D97706] rounded-xl flex items-center justify-center hover:bg-[#B45309] transition-colors disabled:opacity-30 disabled:cursor-not-allowed shrink-0"
           >
             <Send className="w-5 h-5 text-white" />
           </button>

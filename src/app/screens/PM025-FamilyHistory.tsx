@@ -228,7 +228,7 @@ export default function FamilyHistory({ onContinue, onSkip, onBack, initialData 
           </Button>
           <Button 
             onClick={handleContinue}
-            className="flex-1 h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E]"
+            className="flex-1 h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309]"
           >
             Continue
           </Button>

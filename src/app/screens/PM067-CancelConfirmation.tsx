@@ -63,7 +63,7 @@ export default function CancelConfirmation({
         <div className="space-y-3">
           <Button 
             onClick={onGoHome}
-            className="w-full h-[52px] bg-[#D72638] text-white rounded-xl text-base font-medium hover:bg-[#B91C2E]"
+            className="w-full h-[52px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309]"
           >
             <Home className="w-5 h-5 mr-2" />
             Go to Dashboard

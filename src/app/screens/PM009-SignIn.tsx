@@ -19,7 +19,7 @@ export default function SignIn({ onSignIn, onForgotPassword, onCreateAccount, on
   const isValid = email.length > 0 && email.includes('@') && password.length > 0;
 
   return (
-    <div className="flex flex-col h-full bg-[#D72638]">
+    <div className="flex flex-col h-full bg-[#D97706]">
       {/* Header with Back Button */}
       <div className="flex items-center p-4">
         <button onClick={onBack} className="p-2">
@@ -94,7 +94,7 @@ export default function SignIn({ onSignIn, onForgotPassword, onCreateAccount, on
         <Button
           onClick={onSignIn}
           disabled={!isValid}
-          className="w-full h-[52px] bg-white text-[#D72638] rounded-xl text-base font-semibold hover:bg-white/90 disabled:bg-white/30 disabled:text-white/50 mb-8"
+          className="w-full h-[52px] bg-white text-[#D97706] rounded-xl text-base font-semibold hover:bg-white/90 disabled:bg-white/30 disabled:text-white/50 mb-8"
         >
           Sign In
         </Button>
