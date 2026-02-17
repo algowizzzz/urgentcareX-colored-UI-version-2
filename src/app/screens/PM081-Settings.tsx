@@ -165,11 +165,11 @@ export default function Settings({ onNavigate, onLogout, onBack, onNavigateHome,
   return (
     <div className="flex flex-col h-full bg-[#F8F9FA]">
       {/* Header */}
-      <div className="bg-white flex items-center p-4 border-b border-[#E5E7EB]" style={{ boxShadow: '0 1px 3px rgba(0,0,0,0.04)' }}>
+      <div className="bg-gradient-to-br from-[#1F2937] to-[#111827] flex items-center px-4 py-4">
         <button onClick={onBack} className="p-2">
-          <ArrowLeft className="w-5 h-5 text-[#1F2937]" />
+          <ArrowLeft className="w-5 h-5 text-white" />
         </button>
-        <h2 className="text-lg font-semibold text-[#1F2937] ml-2">Profile</h2>
+        <h2 className="text-lg font-semibold text-white ml-2">Profile</h2>
       </div>
 
       {/* Content */}

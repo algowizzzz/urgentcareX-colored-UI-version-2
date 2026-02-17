@@ -26,17 +26,17 @@ export default function PastAppointmentDetails({
   return (
     <div className="flex flex-col h-full bg-white">
       {/* Header */}
-      <div className="flex items-center p-4 border-b border-[#E5E7EB]">
+      <div className="bg-gradient-to-br from-[#1F2937] to-[#111827] flex items-center px-4 py-4">
         <button onClick={onBack} className="p-2">
-          <ArrowLeft className="w-6 h-6 text-[#1F2937]" />
+          <ArrowLeft className="w-6 h-6 text-white" />
         </button>
-        <h2 className="text-lg font-semibold text-[#1F2937] ml-2">Visit Summary</h2>
+        <h2 className="text-lg font-semibold text-white ml-2">Visit Summary</h2>
       </div>
 
       {/* Content */}
       <div className="flex-1 overflow-y-auto pb-8">
         {/* Status Banner */}
-        <div className="bg-[#6B7280] px-6 py-4">
+        <div className="bg-[#D97706] px-6 py-4">
           <div className="flex items-center gap-2 text-white">
             <span className="text-lg">✓</span>
             <p className="text-sm font-medium">Visit Completed</p>
@@ -196,7 +196,7 @@ export default function PastAppointmentDetails({
             </p>
             <Button 
               onClick={onBookFollowUp}
-              className="w-full h-[48px] bg-[#10B981] text-white rounded-xl text-base font-medium hover:bg-[#059669]"
+              className="w-full h-[48px] bg-[#D97706] text-white rounded-xl text-base font-medium hover:bg-[#B45309]"
             >
               <Calendar className="w-5 h-5 mr-2" />
               Book Follow-Up Appointment

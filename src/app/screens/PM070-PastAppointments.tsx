@@ -84,15 +84,15 @@ export default function PastAppointments({ onViewDetails, onBack }: PastAppointm
   return (
     <div className="flex flex-col h-full bg-[#F8F9FA]">
       {/* Header */}
-      <div className="bg-white flex items-center justify-between px-4 py-3 border-b border-[#E5E7EB]" style={{ boxShadow: '0 1px 3px rgba(0,0,0,0.04)' }}>
+      <div className="bg-gradient-to-br from-[#1F2937] to-[#111827] flex items-center justify-between px-4 py-4">
         <div className="flex items-center gap-2">
           <button onClick={onBack} className="p-2">
-            <ArrowLeft className="w-5 h-5 text-[#1F2937]" />
+            <ArrowLeft className="w-5 h-5 text-white" />
           </button>
-          <h2 className="text-lg font-semibold text-[#1F2937]">Past Appointments</h2>
+          <h2 className="text-lg font-semibold text-white">Past Appointments</h2>
         </div>
-        <div className="flex items-center gap-1 px-2.5 py-1 bg-[#F3F4F6] rounded-full">
-          <span className="text-xs font-semibold text-[#6B7280]">{filteredAppointments.length}</span>
+        <div className="flex items-center gap-1 px-2.5 py-1 bg-white/10 rounded-full">
+          <span className="text-xs font-semibold text-white">{filteredAppointments.length}</span>
         </div>
       </div>
 

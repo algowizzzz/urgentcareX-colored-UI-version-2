@@ -30,13 +30,13 @@ export default function AppointmentHistory({ onViewPast, onViewUpcoming, onBack 
   return (
     <div className="flex flex-col h-full bg-white">
       {/* Header */}
-      <div className="flex items-center justify-between p-4 border-b border-[#E5E7EB]">
+      <div className="bg-gradient-to-br from-[#1F2937] to-[#111827] flex items-center justify-between px-4 py-4">
         <button onClick={onBack} className="p-2">
-          <ArrowLeft className="w-6 h-6 text-[#1F2937]" />
+          <ArrowLeft className="w-6 h-6 text-white" />
         </button>
-        <h2 className="text-lg font-semibold text-[#1F2937]">Appointment History</h2>
+        <h2 className="text-lg font-semibold text-white">Appointment History</h2>
         <button className="p-2">
-          <Search className="w-6 h-6 text-[#1F2937]" />
+          <Search className="w-6 h-6 text-white" />
         </button>
       </div>
 

@@ -195,11 +195,11 @@ export default function UpcomingAppointments({ onViewDetails, onBack, initialFil
   return (
     <div className="flex flex-col h-full bg-white">
       {/* Header */}
-      <div className="flex items-center justify-between p-4 border-b border-[#E5E7EB]">
+      <div className="bg-gradient-to-br from-[#1F2937] to-[#111827] flex items-center justify-between px-4 py-4">
         <button onClick={onBack} className="p-2">
-          <ArrowLeft className="w-6 h-6 text-[#1F2937]" />
+          <ArrowLeft className="w-6 h-6 text-white" />
         </button>
-        <h2 className="text-lg font-semibold text-[#1F2937]">Appointments</h2>
+        <h2 className="text-lg font-semibold text-white">Appointments</h2>
         <div className="w-10"></div>
       </div>
 
@@ -335,7 +335,7 @@ export default function UpcomingAppointments({ onViewDetails, onBack, initialFil
                   <div className="mt-4 pt-4 border-t border-[#E5E7EB]">
                     <button
                       onClick={(e) => handleMarkComplete(e, appointment.id)}
-                      className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-[#6B7280] text-white rounded-xl text-sm font-medium hover:bg-[#4B5563] transition-colors"
+                      className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-[#D97706] text-white rounded-xl text-sm font-medium hover:bg-[#B45309] transition-colors"
                     >
                       <CheckCircle className="w-4 h-4" />
                       Mark as Complete
