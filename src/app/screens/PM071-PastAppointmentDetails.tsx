@@ -26,7 +26,7 @@ export default function PastAppointmentDetails({
   return (
     <div className="flex flex-col h-full bg-white">
       {/* Header */}
-      <div className="bg-gradient-to-br from-[#1F2937] to-[#111827] flex items-center px-4 py-4">
+      <div className="bg-[#D97706] flex items-center px-4 py-4">
         <button onClick={onBack} className="p-2">
           <ArrowLeft className="w-6 h-6 text-white" />
         </button>

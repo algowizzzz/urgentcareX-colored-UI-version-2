@@ -15,7 +15,7 @@ export default function CancelConfirmation({
   return (
     <div className="flex flex-col h-full bg-white">
       {/* Success Header */}
-      <div className="bg-gradient-to-br from-[#1F2937] to-[#111827] px-6 pt-12 pb-8">
+      <div className="bg-[#D97706] px-6 pt-12 pb-8">
         <div className="text-center">
           <div className="inline-flex items-center justify-center w-20 h-20 bg-white rounded-full mb-4">
             <CheckCircle className="w-12 h-12 text-[#D97706]" />

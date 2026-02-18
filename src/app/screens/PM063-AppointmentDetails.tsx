@@ -53,7 +53,7 @@ export default function AppointmentDetails({
   return (
     <div className="flex flex-col h-full bg-white">
       {/* Header */}
-      <div className="bg-gradient-to-br from-[#1F2937] to-[#111827] flex items-center px-4 py-4">
+      <div className="bg-[#D97706] flex items-center px-4 py-4">
         <button onClick={onBack} className="p-2">
           <ArrowLeft className="w-6 h-6 text-white" />
         </button>
@@ -90,16 +90,16 @@ export default function AppointmentDetails({
                 {appointment.specialty}
               </p>
               <div className={`inline-flex px-3 py-1 ${
-                appointment.status === 'confirmed' ? 'bg-[#6B7280]' :
-                appointment.status === 'pending' ? 'bg-[#9CA3AF]' :
+                appointment.status === 'confirmed' ? 'bg-[#D97706]' :
+                appointment.status === 'pending' ? 'bg-[#D97706]' :
                 appointment.status === 'cancelled' ? 'bg-[#EF4444]' :
-                'bg-[#1F2937]'
+                'bg-[#D97706]'
               }/10 rounded-full`}>
                 <p className={`text-sm font-medium ${
-                  appointment.status === 'confirmed' ? 'text-[#6B7280]' :
-                  appointment.status === 'pending' ? 'text-[#9CA3AF]' :
+                  appointment.status === 'confirmed' ? 'text-[#D97706]' :
+                  appointment.status === 'pending' ? 'text-[#D97706]' :
                   appointment.status === 'cancelled' ? 'text-[#EF4444]' :
-                  'text-[#1F2937]'
+                  'text-[#D97706]'
                 }`}>
                   {appointment.status === 'confirmed' ? 'Confirmed' :
                    appointment.status === 'pending' ? 'Pending Confirmation' :

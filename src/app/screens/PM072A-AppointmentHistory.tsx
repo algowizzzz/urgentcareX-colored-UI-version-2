@@ -30,7 +30,7 @@ export default function AppointmentHistory({ onViewPast, onViewUpcoming, onBack 
   return (
     <div className="flex flex-col h-full bg-white">
       {/* Header */}
-      <div className="bg-gradient-to-br from-[#1F2937] to-[#111827] flex items-center justify-between px-4 py-4">
+      <div className="bg-[#D97706] flex items-center justify-between px-4 py-4">
         <button onClick={onBack} className="p-2">
           <ArrowLeft className="w-6 h-6 text-white" />
         </button>
@@ -43,7 +43,7 @@ export default function AppointmentHistory({ onViewPast, onViewUpcoming, onBack 
       {/* Content */}
       <div className="flex-1 overflow-y-auto pb-8">
         {/* Overview Stats */}
-        <div className="px-6 py-6 bg-gradient-to-br from-[#1F2937] to-[#374151]">
+        <div className="px-6 py-6 bg-[#D97706]">
           <div className="text-center mb-6">
             <p className="text-sm text-white/80 mb-2">Total Appointments</p>
             <p className="text-5xl font-bold text-white mb-1">{stats.total}</p>
@@ -104,7 +104,7 @@ export default function AppointmentHistory({ onViewPast, onViewUpcoming, onBack 
           <div className="space-y-3">
             <div className="flex items-center justify-between p-4 bg-[#F3F4F6] rounded-xl">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-[#1F2937] rounded-full flex items-center justify-center">
+                <div className="w-10 h-10 bg-[#D97706] rounded-full flex items-center justify-center">
                   <span className="text-white text-lg">🏥</span>
                 </div>
                 <div>
@@ -117,7 +117,7 @@ export default function AppointmentHistory({ onViewPast, onViewUpcoming, onBack 
 
             <div className="flex items-center justify-between p-4 bg-[#F3F4F6] rounded-xl">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-[#6B7280] rounded-full flex items-center justify-center">
+                <div className="w-10 h-10 bg-[#D97706]/70 rounded-full flex items-center justify-center">
                   <span className="text-white text-lg">📹</span>
                 </div>
                 <div>

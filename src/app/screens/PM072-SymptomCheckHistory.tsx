@@ -49,19 +49,19 @@ export default function SymptomCheckHistory({
     switch (status) {
       case 'completed':
         return (
-          <span className="px-2 py-1 bg-[#1F2937] text-white text-xs rounded-full">
+          <span className="px-2 py-1 bg-[#D97706] text-white text-xs rounded-full">
             Completed
           </span>
         );
       case 'in-progress':
         return (
-          <span className="px-2 py-1 bg-[#6B7280] text-white text-xs rounded-full">
+          <span className="px-2 py-1 bg-[#D97706]/70 text-white text-xs rounded-full">
             In Progress
           </span>
         );
       case 'abandoned':
         return (
-          <span className="px-2 py-1 bg-[#9CA3AF] text-white text-xs rounded-full">
+          <span className="px-2 py-1 bg-[#D97706]/40 text-white text-xs rounded-full">
             Abandoned
           </span>
         );
@@ -87,7 +87,7 @@ export default function SymptomCheckHistory({
   return (
     <div className="flex flex-col h-full bg-white">
       {/* Header */}
-      <div className="bg-gradient-to-br from-[#1F2937] to-[#111827] flex items-center px-4 py-4">
+      <div className="bg-[#D97706] flex items-center px-4 py-4">
         <button onClick={onBack} className="p-2">
           <ArrowLeft className="w-6 h-6 text-white" />
         </button>
@@ -142,7 +142,7 @@ export default function SymptomCheckHistory({
                   <Button
                     onClick={() => onViewTranscript(session.sessionId)}
                     variant="outline"
-                    className="flex-1 h-[40px] border-[#E5E7EB] text-[#1F2937] rounded-lg text-sm font-medium hover:bg-[#F3F4F6]"
+                    className="flex-1 h-[40px] border-[#D97706] text-[#D97706] rounded-lg text-sm font-medium hover:bg-[#D97706]/5"
                   >
                     <Eye className="w-4 h-4 mr-2" />
                     View

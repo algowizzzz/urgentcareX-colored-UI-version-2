@@ -142,11 +142,11 @@ export default function UpcomingAppointments({ onViewDetails, onBack, initialFil
 
   const getStatusColor = (status: string) => {
     switch (status) {
-      case 'confirmed': return 'bg-[#6B7280]';
-      case 'pending': return 'bg-[#9CA3AF]';
-      case 'completed': return 'bg-[#1F2937]';
+      case 'confirmed': return 'bg-[#D97706]';
+      case 'pending': return 'bg-[#D97706]/60';
+      case 'completed': return 'bg-[#D97706]';
       case 'cancelled': return 'bg-[#EF4444]';
-      default: return 'bg-[#6B7280]';
+      default: return 'bg-[#D97706]';
     }
   };
 
@@ -195,7 +195,7 @@ export default function UpcomingAppointments({ onViewDetails, onBack, initialFil
   return (
     <div className="flex flex-col h-full bg-white">
       {/* Header */}
-      <div className="bg-gradient-to-br from-[#1F2937] to-[#111827] flex items-center justify-between px-4 py-4">
+      <div className="bg-[#D97706] flex items-center justify-between px-4 py-4">
         <button onClick={onBack} className="p-2">
           <ArrowLeft className="w-6 h-6 text-white" />
         </button>
@@ -209,7 +209,7 @@ export default function UpcomingAppointments({ onViewDetails, onBack, initialFil
           onClick={() => setFilter('all')}
           className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
             filter === 'all'
-              ? 'bg-[#1F2937] text-white'
+              ? 'bg-[#D97706] text-white'
               : 'bg-[#F3F4F6] text-[#6B7280] hover:bg-[#E5E7EB]'
           }`}
         >
@@ -219,7 +219,7 @@ export default function UpcomingAppointments({ onViewDetails, onBack, initialFil
           onClick={() => setFilter('pending')}
           className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
             filter === 'pending'
-              ? 'bg-[#1F2937] text-white'
+              ? 'bg-[#D97706] text-white'
               : 'bg-[#F3F4F6] text-[#6B7280] hover:bg-[#E5E7EB]'
           }`}
         >
@@ -229,7 +229,7 @@ export default function UpcomingAppointments({ onViewDetails, onBack, initialFil
           onClick={() => setFilter('confirmed')}
           className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
             filter === 'confirmed'
-              ? 'bg-[#1F2937] text-white'
+              ? 'bg-[#D97706] text-white'
               : 'bg-[#F3F4F6] text-[#6B7280] hover:bg-[#E5E7EB]'
           }`}
         >
@@ -239,7 +239,7 @@ export default function UpcomingAppointments({ onViewDetails, onBack, initialFil
           onClick={() => setFilter('completed')}
           className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
             filter === 'completed'
-              ? 'bg-[#1F2937] text-white'
+              ? 'bg-[#D97706] text-white'
               : 'bg-[#F3F4F6] text-[#6B7280] hover:bg-[#E5E7EB]'
           }`}
         >
