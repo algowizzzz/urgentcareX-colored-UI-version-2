@@ -68,13 +68,6 @@ export default function Dashboard({
     }
   ];
 
-  const getGreeting = () => {
-    const hour = new Date().getHours();
-    if (hour < 12) return 'Good Morning';
-    if (hour < 17) return 'Good Afternoon';
-    return 'Good Evening';
-  };
-
   return (
     <div className="flex flex-col h-full bg-[#F3F4F6] relative">
       {/* Header */}
@@ -86,7 +79,6 @@ export default function Dashboard({
               <span className="text-sm font-bold text-white">{userName.charAt(0)}</span>
             </div>
             <div>
-              <p className="text-xs text-white/50 font-medium">{getGreeting()}</p>
               <h1 className="text-lg font-bold text-white">{userName}</h1>
             </div>
           </div>
